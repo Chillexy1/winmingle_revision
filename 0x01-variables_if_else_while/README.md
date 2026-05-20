@@ -36,5 +36,25 @@ The objective of this tutorial  is to learn, understand and be able to explain w
 
     The purpose of the gcc flags -m32 and -m64
 
+RULES.1.
+All files compiled on Ubuntu 20.04 LTS using:
+
+ gcc -Wall -Werror -Wextra -pedantic -std=gnu89
+
+RULES.2.
+
+All files must: 
+
+ End with a new line
+
+
+Contain no compilation warnings or errors
+
+
+Follow WinMingle C Style Guide (similar to Betty)
+
+
+
+
 
 
