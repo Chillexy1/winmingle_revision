@@ -15,6 +15,7 @@ char *_strncpy(char *dest, char *src, int n) {
     i++;
   }
 
+  // gfills the empty spaces
   while (i < n) {
     dest[i] = '\0';
     i++;
