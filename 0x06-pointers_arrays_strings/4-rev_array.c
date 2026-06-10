@@ -16,7 +16,7 @@ void reverse_array(int *a, int n) {
       _putchar(' ');
     }
 
-    print_numbers(a[size]);
+    print_number(a[size]);
 
     size--;
   }
