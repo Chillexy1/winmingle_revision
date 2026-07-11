@@ -12,6 +12,8 @@ dog_t *new_dog(char *name, float age, char *owner) {
   int len1 = 0;
   int len2 = 0;
   dog_t *dog;
+  if (name || owner == NULL) // what to do if name or owner is not found
+    return NULL;
 
   dog = malloc(sizeof(*dog));
   if (dog == NULL)
